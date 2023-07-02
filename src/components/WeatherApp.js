@@ -38,7 +38,7 @@ const WeatherApp = () => {
 
   return (
     <div className="container">
-      <h1 >Weather App</h1>
+      <h1>Weather App</h1>
       <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -52,7 +52,7 @@ const WeatherApp = () => {
       {error && <p className="error-message">{error}</p>}
       {weatherData && (
         <div className="weather-info">
-          <h2 className="city-name">{weatherData.name}</h2>
+          <h2>{weatherData.name}</h2>
           <div className="weather-details">
             <div className="weather-condition">
               <img
