@@ -45,9 +45,14 @@ p{
 .type{
   font-weight: 300;
 }
+form{
+  display: flex;
+  width: 100%;
+}
 input{
+
 padding: 0.9vw;
-width: 5rem;
+display: grid;
 }
 button{
 padding: 0.9vw;
